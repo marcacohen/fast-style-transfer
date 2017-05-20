@@ -1,0 +1,3 @@
+#!/bin/bash
+
+time python style.py --checkpoint-dir models --style ./examples/style/starry.jpg 

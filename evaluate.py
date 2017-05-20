@@ -13,7 +13,7 @@ import subprocess
 import numpy
 
 BATCH_SIZE = 4
-DEVICE = '/gpu:0'
+DEVICE = '/cpu:0'
 
 
 def from_pipe(opts):
